@@ -29,7 +29,7 @@ public class FroggerDC
     private static final int FROGUP=0,FROGDOWN=1,FROGRIGHT=2,FROGLEFT=3,FROGDEAD=4,FROGSMILE=5,CARPINK=6,CARRED=7,CARBLUE=8,CARGREY=9;
     private static final String[] imgFiles = {"frog1Up.gif", "frog1Down.gif", "frog1Right.gif", "frog1Left.gif", 
     	"skullAndCrossbones.png", "frog3.jpg", "carpink.png", "carred.png", "carblue.png", "cargrey.png"};
-    private static final String IMAGE_PATH = "Games/resource/";
+    private static final String IMAGE_PATH = "src/resource/";
     private ImageIcon imgIcon[] = new ImageIcon[imgFiles.length];
     
     private static int grassRow1=NUM_GRID_ROWS-2, grassRow2=NUM_GRID_ROWS-7;
